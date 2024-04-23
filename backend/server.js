@@ -2,7 +2,7 @@ import path from "path";
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import path from "oath";
+import path from "path";
 
 import cookieParser from "cookie-parser";
 dotenv.config();
