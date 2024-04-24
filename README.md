@@ -9,11 +9,7 @@ This is the README file for the Ethiopian Elegance ecommerce website. Ethiopian 
 - Browse products by category
 - View product details including photos, descriptions, colors
 - Add products to a shopping cart
-<<<<<<< HEAD
-- Create an account to save cart and order history 
-=======
 - Create an account to save cart and order history
->>>>>>> 31f1c342d22cfcefb3c3b6067fb5b5dcf7d0809a
 - Checkout with shopping cart
 - Make payments through Stripe integration
 - View order history and status
@@ -48,17 +44,7 @@ This is the README file for the Ethiopian Elegance ecommerce website. Ethiopian 
    npm install
 
 3. Configure environment variables in .env file
-
-<<<<<<< HEAD
-   MONGO_URI=your_mongo_uri
-   STRIPE_SECRET_KEY=your_stripe_secret_key
-   NODE_ENV = development
-   PORT = 5000
-   JWT_SECRET = your_secret
-   JWT_EXPIRES_IN = 90d
-   PAYPAL_CLIENT_ID = your_paypal_client_id
-   PAGINATION_LIMIT=10
-=======
+   
    - MONGO_URI=your_mongo_uri
    - STRIPE_SECRET_KEY=your_stripe_secret_key
    - NODE_ENV = development
@@ -67,11 +53,10 @@ This is the README file for the Ethiopian Elegance ecommerce website. Ethiopian 
    - JWT_EXPIRES_IN = 90d
    - PAYPAL_CLIENT_ID = your_paypal_client_id
    - PAGINATION_LIMIT=10
->>>>>>> 31f1c342d22cfcefb3c3b6067fb5b5dcf7d0809a
 
 4. Start the app
 
-   npm start
+   npm run dev
 
 The app will now be running at http://localhost:5173
 
